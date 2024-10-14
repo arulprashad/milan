@@ -1,0 +1,185 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-section {
+ display: flex;
+  
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.form-section {
+  
+  display: flex;
+  width: 100vh;
+  background-color: #ffffff;
+ 
+}
+
+.form-container {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin: 20px;
+}
+.custom-divider {
+  border-bottom: 1px solid #ddd; 
+  margin-bottom: 30px ; 
+  width: 100%; 
+}
+.custom-divider2{
+  padding: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #333;
+  display: flex;
+}
+
+p {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #777;
+}
+
+p a {
+  color: #06b6ab;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+label img.icon {
+  width: 16px;  
+  height: 16px; 
+  margin-right: -10px; 
+  position: relative;
+  left: 90%;
+  top: 40px;
+}
+
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+  color: #555;
+}
+
+button[type="submit"] {
+  width: 40%;
+  padding: 12px;
+  background-color: #06b6ab;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  text-decoration: underline;
+}
+
+
+.links {
+  margin-top: 30px;
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+}
+
+.links a {
+  
+  display: inline;
+  
+  color: #1f9096;
+  text-decoration: none;
+  margin-bottom: 55px;
+}
+
+.links a.forgot {
+  margin-bottom: 0px; 
+ 
+}
+.term{
+
+  position: relative;
+  top: 20px;
+}
+
+.links a.terms {
+   
+  color: #1f9096; 
+  margin-top: 5px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+  .form-section  {
+    width: 400%;
+  }
+  @media screen and (max-width:600px) {
+    .image-section {
+      width: 0;
+    }
+  }
+}
+
